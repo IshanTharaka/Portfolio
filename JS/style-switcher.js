@@ -54,9 +54,9 @@ window.addEventListener("load", () => {
 
 function changeBoyImg(){
     if(document.body.classList.contains("dark")){
-        document.getElementById("boy-animation-img").src = "/Images/boy light.jpg";
+        document.getElementById("boy-animation-img").src = "/Portfolio/Images/boy light.jpg";
     }
     else{
-        document.getElementById("boy-animation-img").src = "/Images/boy dark.jpg";
+        document.getElementById("boy-animation-img").src = "/Portfolio/Images/boy dark.jpg";
     }
 }

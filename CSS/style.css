@@ -864,3 +864,9 @@ table .final-row{
         max-width: 100%;
     }
 }
+
+@media (max-width:550px){
+    .footer-container{
+        display: none;
+    }
+}
